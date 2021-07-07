@@ -95,7 +95,7 @@ body{
 	display: flex;
 	justify-content: space-evenly;
 	box-sizing: border-box;
-	border: 2px solid black;
+	/* border: 2px solid black; */
 	height: 60vh;
 	margin-top: 50px;
 	display: flex;
@@ -104,8 +104,8 @@ body{
 .info-section{
 	width: 70%;
 	align-self: center;
-	border: 2px solid red;
-	padding-right: 30px;
+	/* border: 2px solid red; */
+	padding-right: 200px;
 }
 
 .early-access-label{
@@ -136,7 +136,8 @@ body{
 }
 
 .graphic-section{
-	padding-left: 50px;
+	height: 80%;
+	align-self: center;
 	box-sizing: border-box;
 }
 
