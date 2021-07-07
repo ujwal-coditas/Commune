@@ -46,6 +46,13 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Utility styles */
+
+.text-gray{
+    color:      #545454;
+}
+
 /* Commune styles */
 
 body{
@@ -53,6 +60,7 @@ body{
     padding-left: 200px;
     padding-right: 200px;
     padding-top: 50px;
+	font-family:'Nunito Sans', sans-serif;;
 }
 
 .nav-container{
@@ -61,15 +69,23 @@ body{
 }
 
 .nav-item{
-    margin-left: 30px;
+	align-self: center;
+	padding: 18px 20px;
+}
+
+.nav-item a{
+    text-decoration: none;
+    color:#545454;
 }
 
 .nav-item-1{
     flex-grow: 1;
 }
 
-.nav-item-1 .logo{
-    
+.nav-item-6{
+	background-color: #372a64;
+	border-radius: 8px;
 }
-
-
+.nav-item-6 a{
+	color: white;
+}
